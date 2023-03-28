@@ -1,0 +1,27 @@
+
+.end_point {
+    width: 400px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+
+    p {
+        font-size: 1.5em;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+
+    h2 {
+        cursor: pointer;
+        font-size: 2em;
+    }
+
+    &_button {
+        text-align: center;
+        margin-top: 50px;
+    }
+}
